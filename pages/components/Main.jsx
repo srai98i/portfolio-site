@@ -5,24 +5,24 @@ import { AiOutlineMail } from "react-icons/ai";
 
 export default function Main() {
   return (
-    <div className="w-full h-screen text-center">
+    <div className="w-full h-screen text-center bg-pink-blue">
       <div className="max-w-[1240px] w-full h-full mx-auto items-center p-2 flex justify-center">
         <div>
-          <p className="uppercase text-sm tracking-widest text-gray-500">
+          <p className="uppercase text-sm tracking-widest text-[white]">
             LETS BUILD SOMETHING
           </p>
-          <h1>
-            Hi, I'm <span className="text-[#5651e5]" Simran></span>
+          <h1 className="drop-shadow-xl">Hi, I'm</h1>
+          <h1 className="py-3 text-[white] drop-shadow-xl">
+            Software Developer
           </h1>
-          <h1 className="py-3 text-gray-700">A Software Developer</h1>
-          <p className="py-4 text-gray-600 max-w-[70%] m-auto">
+          <p className="py-4 text-[white] max-w-[70%] m-auto">
             Lorem Ipsum etc
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 easein duration-300">
               <FaLinkedinIn />
             </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 easein duration-300">
+            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 easein duration-300 hover:bg-gradient-to-r from-purple-500 to-pink-500">
               <FaGithub />
             </div>
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 easein duration-300">

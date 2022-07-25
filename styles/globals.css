@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply bg-[white] text-[black] tracking-wide
+    @apply bg-pink-blue text-[white] tracking-wide
   }
   h1,h2,h3,h4,h5,h6 {
     @apply font-bold

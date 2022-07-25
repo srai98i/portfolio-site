@@ -14,7 +14,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed w-full h-20 shadow-xl z-[100]">
+    <div className="fixed w-full h-20 shadow-xl z-[100] bg-pink-blue">
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         Hello
         <div>
@@ -53,12 +53,12 @@ const Navbar = () => {
           <div
             className={
               nav
-                ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500"
+                ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[447092] p-10 ease-in duration-500"
                 : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
             }
           >
             <div className="flex w-full items-center justify-between">
-              <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer">
+              <div className="rounded-full shadow-lg shadow-[#2F97C1] p-3 cursor-pointer ">
                 <AiOutlineClose onClick={handleNav} />
               </div>
             </div>
