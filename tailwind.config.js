@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "pink-blue": "linear-gradient(to right, #DB5375 30% , #2F97C1 70%);",
+        "pink-blue": "black",
       },
     },
   },
