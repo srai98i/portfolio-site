@@ -11,7 +11,7 @@ export default function Main() {
       <div className="max-w-[1240px] w-full h-full mx-auto items-center p-2 flex justify-center">
         <div>
           <p className="uppercase text-sm tracking-widest text-[#eae9d3]"></p>
-          <h1 className="drop-shadow-xl ">Hi, I'm</h1>
+          <h1 className="drop-shadow-xl ">Hi, I&apos;m</h1>
           <h1 className="py-3  drop-shadow-xl">Simran Rai</h1>
           <p className="py-4 text-[white] max-w-[70%] m-auto">
             Software Developer

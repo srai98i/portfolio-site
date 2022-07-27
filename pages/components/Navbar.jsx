@@ -70,7 +70,7 @@ const Navbar = () => {
             </div>
             <div className="border-b border-[#EA9EB1] my-4">
               <p className="w-[85%] md:w-[90%] py-4">
-                Let's build something legendary together
+                Let&apos;s build something legendary together
               </p>
             </div>
             <div className="py-4 flex flex-col">
