@@ -4,10 +4,10 @@
 
 @layer base {
   body {
-    @apply bg-pink-blue text-[#DB5375] tracking-wide
+    @apply bg-[black] text-[#EA9EB1] tracking-wide
   }
   h1,h2,h3,h4,h5,h6 {
-    @apply font-bold
+    @apply font-bold text-[#EA9EB1]
   }
   h1{
     @apply text-4xl sm:text-5xl md:text-6xl

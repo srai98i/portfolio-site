@@ -1,5 +1,5 @@
 import React from "react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
@@ -14,32 +14,38 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed w-full h-20 shadow-sm shadow-[#DB5375] z-[100] bg-[black]">
+    <div className="fixed w-full h-20 shadow-md shadow-[#DB5375] border-b-[#EA9EB1] border-b-[0.05rem] z-[100]  bg-[black]">
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         Hello
         <div>
           <ul className="hidden md:flex">
-            <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
+            <Link href="/#home">
+              <li className="ml-10 font-semibold text-sm uppercase hover:border-b hover:border-b-[##DB5375]">
+                Home
+              </li>
             </Link>
-            <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">About</li>
+            <Link href="/#about">
+              <li className="ml-10 font-semibold text-sm uppercase hover:border-b">
+                About
+              </li>
             </Link>
-            <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
+            <Link href="/#skills">
+              <li className="ml-10 font-semibold text-sm uppercase hover:border-b">
+                Skills
+              </li>
             </Link>
-            <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">
+            <Link href="/#projects">
+              <li className="ml-10 font-semibold text-sm uppercase hover:border-b">
                 Projects
               </li>
             </Link>
-            <Link href="/">
+            <Link href="/#contact">
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Contact
               </li>
             </Link>
           </ul>
-          <div onClick={handleNav} className="md:hidden">
+          <div onClick={handleNav} className="md:hidden text-[#DB5375]">
             <AiOutlineMenu size={25} />
           </div>
         </div>
@@ -53,54 +59,89 @@ const Navbar = () => {
           <div
             className={
               nav
-                ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[447092] p-10 ease-in duration-500"
+                ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[447092] p-10 ease-in duration-500"
                 : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
             }
           >
             <div className="flex w-full items-center justify-between">
-              <div className="rounded-full border-[#DB5375] border-[.1rem] p-3 cursor-pointer ">
+              <div className="rounded-full border-[#DB5375] border-[.1rem] p-3 cursor-pointer hover:bg-gradient-to-r from-[#DB5375] to-pink-500 hover:text-[black] ">
                 <AiOutlineClose onClick={handleNav} />
               </div>
             </div>
-            <div className="border-b border-[#DB5375] my-4">
+            <div className="border-b border-[#EA9EB1] my-4">
               <p className="w-[85%] md:w-[90%] py-4">
                 Let's build something legendary together
               </p>
             </div>
             <div className="py-4 flex flex-col">
               <ul className="uppercase">
-                <Link href="/">
-                  <li className="py-4 text-sm">Home</li>
+                <Link href="/#home">
+                  <li
+                    className="py-4 text-sm hover:text-[#DB5375]"
+                    onClick={handleNav}
+                  >
+                    Home
+                  </li>
                 </Link>
-                <Link href="/">
-                  <li className="py-4 text-sm">About</li>
+                <Link href="/#about">
+                  <li
+                    className="py-4 text-sm hover:text-[#DB5375]"
+                    onClick={handleNav}
+                  >
+                    About
+                  </li>
                 </Link>
-                <Link href="/">
-                  <li className="py-4 text-sm">Skills</li>
+                <Link href="/#skills">
+                  <li
+                    className="py-4 text-sm hover:text-[#DB5375]"
+                    onClick={handleNav}
+                  >
+                    Skills
+                  </li>
                 </Link>
-                <Link href="/">
-                  <li className="py-4 text-sm">Projects</li>
+                <Link href="/#projects">
+                  <li
+                    className="py-4 text-sm hover:text-[#DB5375]"
+                    onClick={handleNav}
+                  >
+                    Projects
+                  </li>
                 </Link>
-                <Link href="/">
-                  <li className="py-4 text-sm">Contact</li>
+                <Link href="/#contact">
+                  <li
+                    className="py-4 text-sm hover:text-[#DB5375]"
+                    onClick={handleNav}
+                  >
+                    Contact
+                  </li>
                 </Link>
               </ul>
               <div className="pt-40">
-                <p className="uppercase tracking-widest test-[#5651e5]">
-                  Let's Connect
-                </p>
+                <p className="uppercase tracking-widest">Let's Connect</p>
               </div>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                <div className="rounded-full border-[#DB5375] border-[.1rem] p-3 cursor-pointer hover:scale-105 easein duration">
-                  <FaLinkedinIn />
-                </div>
-                <div className="rounded-full border-[#DB5375] border-[.1rem] p-3 cursor-pointer hover:scale-105 easein duration">
-                  <FaGithub />
-                </div>
-                <div className="rounded-full border-[#DB5375] border-[.1rem] p-3 cursor-pointer hover:scale-105 easein duration">
+                <a
+                  href="https://www.linkedin.com/in/simranrai98/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="rounded-full border-[#DB5375] border-[.1rem] p-3 cursor-pointer hover:scale-105 easein duration hover:border-[pink] hover:bg-gradient-to-r from-[#DB5375] to-pink-500 hover:text-[black]">
+                    <FaLinkedinIn />
+                  </div>
+                </a>
+                <a
+                  href="https://github.com/srai98i"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="rounded-full border-[#DB5375] border-[.1rem] p-3 cursor-pointer hover:scale-105 easein duration hover:border-[pink] hover:bg-gradient-to-r from-[#DB5375] to-pink-500 hover:text-[black]">
+                    <FaGithub />
+                  </div>
+                </a>
+                <div className="rounded-full border-[#DB5375] border-[.1rem] p-3 cursor-pointer hover:scale-105 easein duration hover:border-[pink] hover:bg-gradient-to-r from-[#DB5375] to-pink-500 hover:text-[black]">
                   <AiOutlineMail />
                 </div>
-                <div className="rounded-full border-[#DB5375] border-[.1rem] p-3 cursor-pointer hover:scale-105 easein duration">
+                <div className="rounded-full border-[#DB5375] border-[.1rem] p-3 cursor-pointer hover:scale-105 easein duration hover:border-[pink] hover:bg-gradient-to-r from-[#DB5375] to-pink-500 hover:text-[black]">
                   <BsFillPersonLinesFill />
                 </div>
               </div>
