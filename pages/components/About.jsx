@@ -23,7 +23,7 @@ export default function About() {
             in both front-end and back-end development and am always looking to
             push myself to work with more technologies and languages!
           </p>
-          <p className="py-2  text-[white]">
+          <p className="py-2  text-[#EA9EB1]">
             Check out my Projects{" "}
             <Link href="/#projects">
               <a className="py-2 text-[white] underline cursor-pointer">
@@ -32,7 +32,7 @@ export default function About() {
               </a>
             </Link>{" "}
           </p>
-          <p className="py-2  text-[white]">
+          <p className="py-2  text-[#EA9EB1]">
             Visit my Github{" "}
             <Link href="https://github.com/srai98i">
               <a

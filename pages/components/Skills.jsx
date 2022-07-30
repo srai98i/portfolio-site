@@ -18,7 +18,7 @@ export default function Skills() {
         <p className="text-xl tracking-widest uppercase text-[white] mt-[6rem]">
           Skills
         </p>
-        <h2 className="py-4">What I Can Do</h2>
+        <h2 className="py-4">Tech Stack</h2>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
@@ -66,7 +66,7 @@ export default function Skills() {
                 <Image src={Tailwind} width="64px" height="64px" alt="/" />
               </div> */}
               <div className="flex flex-col items-center justify-center">
-                <h3>Tailwind</h3>
+                <h3>Next</h3>
               </div>
             </div>
           </div>
@@ -76,7 +76,7 @@ export default function Skills() {
                 <Image src={Firebase} width="64px" height="64px" alt="/" />
               </div> */}
               <div className="flex flex-col items-center justify-center">
-                <h3>Firebase</h3>
+                <h3>Tailwind</h3>
               </div>
             </div>
           </div>
@@ -86,17 +86,57 @@ export default function Skills() {
                 <Image src={Github} width="64px" height="64px" alt="/" />
               </div> */}
               <div className="flex flex-col items-center justify-center">
-                <h3>Github</h3>
+                <h3>TypeScript</h3>
               </div>
             </div>
           </div>
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               {/* <div className="m-auto">
+                <Image src={Github} width="64px" height="64px" alt="/" />
+              </div> */}
+              <div className="flex flex-col items-center justify-center">
+                <h3>Figma</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6  border-[#EA9EB1] border-[0.1rem] rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              {/* <div className="m-auto">
                 <Image src={NextJS} width="64px" height="64px" alt="/" />
               </div> */}
               <div className="flex flex-col items-center justify-center">
-                <h3>Next</h3>
+                <h3>NodeJs</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 border-[#EA9EB1] border-[0.1rem] rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              {/* <div className="m-auto">
+                <Image src={Github} width="64px" height="64px" alt="/" />
+              </div> */}
+              <div className="flex flex-col items-center justify-center">
+                <h3>PostgreSQL</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-md shadow-[#EA9EB1] rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              {/* <div className="m-auto">
+                <Image src={Github} width="64px" height="64px" alt="/" />
+              </div> */}
+              <div className="flex flex-col items-center justify-center">
+                <h3>Heroku</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-md shadow-[#EA9EB1] rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              {/* <div className="m-auto">
+                <Image src={Github} width="64px" height="64px" alt="/" />
+              </div> */}
+              <div className="flex flex-col items-center justify-center">
+                <h3>Jest</h3>
               </div>
             </div>
           </div>
