@@ -7,12 +7,12 @@ export default function About() {
       id="about"
       className="w-full md:h-screen p-2 flex items-center bg-pink-blue py-16"
     >
-      <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
-        <div className="col-span-2">
-          <p className="uppercase text-xl tracking-widest text-[#EA9EB1]">
+      <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8 mt-9">
+        <div className="col-span-2 ">
+          <p className="uppercase text-xl tracking-widest text-[white]">
             About
           </p>
-          <h2 className="py-4">Who I Am</h2>
+          <h2 className="py-4 ">Who I Am</h2>
           <p className="py-2 flex justify-items-center text-[white]">
             I am a Biomedical Sciences graduate currently studying at the School
             of Code 💻{" "}

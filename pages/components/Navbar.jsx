@@ -64,14 +64,14 @@ const Navbar = () => {
             }
           >
             <div className="flex w-full items-center justify-between">
-              <div className="rounded-full border-[#EA9EB1] border-[.1rem] p-3 cursor-pointer hover:bg-gradient-to-r from-[#DB5375] to-pink-500 hover:text-[black] ">
+              <div className="rounded-full border-[#EA9EB1] border-[.2rem] p-3 mb-8 cursor-pointer hover:bg-gradient-to-r from-[#DB5375] to-pink-500 hover:text-[black] ">
                 <AiOutlineClose onClick={handleNav} />
               </div>
             </div>
-            <div className="border-b border-[#EA9EB1] my-4">
-              <p className="w-[85%] md:w-[90%] py-4">
+            <div className=" border-[#EA9EB1] border-b-[0.2rem] my-4 ">
+              {/* <p className="w-[85%] md:w-[90%] py-4">
                 Let&apos;s build something legendary together
-              </p>
+              </p> */}
             </div>
             <div className="py-4 flex flex-col">
               <ul className="uppercase">
@@ -117,7 +117,9 @@ const Navbar = () => {
                 </Link>
               </ul>
               <div className="pt-40">
-                <p className="uppercase tracking-widest">Let&apos;s Connect</p>
+                <p className="uppercase tracking-widest mb-2">
+                  Let&apos;s Connect
+                </p>
               </div>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                 <a
