@@ -45,7 +45,7 @@ export default function About() {
             </Link>{" "}
           </p>
         </div>
-        <div className="w-full h-auto m-auto shadow-xl shadow-[#EA9EB1] rounded-xl flex items-center justify-center p-4 hover:scale-105 easein duration-300 mt-10">
+        <div className="w-full h-auto m-auto shadow-lg shadow-[#EA9EB1] rounded-xl flex items-center justify-center p-4 hover:scale-105 easein duration-300 mt-10">
           put img here
         </div>
       </div>

@@ -21,7 +21,7 @@
   }
 
   button {
-    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#DB5375] to-[#EA9EB1] text-white
+    @apply shadow-sm shadow-[#EA9EB1] rounded-xl uppercase border-[#EA9EB1] border-[.1rem]  hover:border-[pink] hover:bg-gradient-to-r from-[#DB5375] to-pink-500 hover:text-[black]
   }
 }
 

@@ -20,7 +20,7 @@ export default function Skills() {
         </p>
         <h2 className="py-4">Tech Stack</h2>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 shadow-md shadow-[#EA9EB1] rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               {/* <div className='m-auto'>
                     <Image src={Html} width='64px' height='64px' alt='/' />
@@ -30,7 +30,7 @@ export default function Skills() {
               </div>
             </div>
           </div>
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 shadow-md shadow-[#EA9EB1] rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               {/* <div className='m-auto'>
                     <Image src={Css} width='64px' height='64px' alt='/' />
@@ -40,7 +40,7 @@ export default function Skills() {
               </div>
             </div>
           </div>
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 shadow-md shadow-[#EA9EB1] rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               {/* <div className='m-auto'>
                     <Image src={Javascript} width='64px' height='64px' alt='/' />
@@ -50,7 +50,7 @@ export default function Skills() {
               </div>
             </div>
           </div>
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 shadow-md shadow-[#EA9EB1] rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               {/* <div className='m-auto'>
                     <Image src={ReactImg} width='64px' height='64px' alt='/' />
@@ -60,7 +60,7 @@ export default function Skills() {
               </div>
             </div>
           </div>
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 shadow-md shadow-[#EA9EB1] rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               {/* <div className="m-auto">
                 <Image src={Tailwind} width="64px" height="64px" alt="/" />
@@ -70,7 +70,7 @@ export default function Skills() {
               </div>
             </div>
           </div>
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 shadow-md shadow-[#EA9EB1] rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               {/* <div className="m-auto">
                 <Image src={Firebase} width="64px" height="64px" alt="/" />
@@ -80,7 +80,7 @@ export default function Skills() {
               </div>
             </div>
           </div>
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 shadow-md shadow-[#EA9EB1] rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               {/* <div className="m-auto">
                 <Image src={Github} width="64px" height="64px" alt="/" />
@@ -90,7 +90,7 @@ export default function Skills() {
               </div>
             </div>
           </div>
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 shadow-md shadow-[#EA9EB1] rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               {/* <div className="m-auto">
                 <Image src={Github} width="64px" height="64px" alt="/" />
@@ -100,7 +100,7 @@ export default function Skills() {
               </div>
             </div>
           </div>
-          <div className="p-6  border-[#EA9EB1] border-[0.1rem] rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 shadow-md shadow-[#EA9EB1] rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               {/* <div className="m-auto">
                 <Image src={NextJS} width="64px" height="64px" alt="/" />
@@ -110,7 +110,7 @@ export default function Skills() {
               </div>
             </div>
           </div>
-          <div className="p-6 border-[#EA9EB1] border-[0.1rem] rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 shadow-md shadow-[#EA9EB1] rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               {/* <div className="m-auto">
                 <Image src={Github} width="64px" height="64px" alt="/" />
