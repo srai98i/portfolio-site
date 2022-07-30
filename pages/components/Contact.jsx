@@ -25,7 +25,7 @@ const Contact = () => {
   return (
     <div id="contact" className="w-full bg-pink-blue lg:h-screen">
       <div className="max-w-[1240px] bg-pink-blue m-auto px-2 py-16 w-full ">
-        <p className="text-xl  tracking-widest uppercase text-[#5651e5]">
+        <p className="text-xl  tracking-widest uppercase text-[#EA9EB1]]">
           Contact
         </p>
         <h2 className="py-4 ">Get In Touch</h2>
@@ -41,9 +41,9 @@ const Contact = () => {
                 />
               </div> */}
               <div>
-                <h2 className="py-2">Simran Rai</h2>
-                <p>Software Developer</p>
-                <p className="py-4">
+                <h2 className="py-2 ">Simran Rai</h2>
+                <p className="text-[white]">Software Developer</p>
+                <p className="py-4 text-[white]">
                   I am available for freelance or full-time positions. Contact
                   me and let&apos;s talk.
                 </p>

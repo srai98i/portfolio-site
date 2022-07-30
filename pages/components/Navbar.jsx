@@ -14,13 +14,13 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed w-full h-20 shadow-md shadow-[#DB5375] border-b-[#EA9EB1] border-b-[0.05rem] z-[100]  bg-[black]">
+    <div className="fixed w-full h-20 shadow-md shadow-[#EA9EB1] border-[#EA9EB1] border-b-[0.05rem] z-[100]  bg-[black]">
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         Hello
         <div>
           <ul className="hidden md:flex">
             <Link href="/#home">
-              <li className="ml-10 font-semibold text-sm uppercase hover:border-b hover:border-b-[##DB5375]">
+              <li className="ml-10 font-semibold text-sm uppercase hover:border-b hover:border-b-[#EA9EB1]">
                 Home
               </li>
             </Link>
@@ -45,7 +45,7 @@ const Navbar = () => {
               </li>
             </Link>
           </ul>
-          <div onClick={handleNav} className="md:hidden text-[#DB5375]">
+          <div onClick={handleNav} className="md:hidden text-[#EA9EB1]">
             <AiOutlineMenu size={25} />
           </div>
         </div>
@@ -64,7 +64,7 @@ const Navbar = () => {
             }
           >
             <div className="flex w-full items-center justify-between">
-              <div className="rounded-full border-[#DB5375] border-[.1rem] p-3 cursor-pointer hover:bg-gradient-to-r from-[#DB5375] to-pink-500 hover:text-[black] ">
+              <div className="rounded-full border-[#EA9EB1] border-[.1rem] p-3 cursor-pointer hover:bg-gradient-to-r from-[#DB5375] to-pink-500 hover:text-[black] ">
                 <AiOutlineClose onClick={handleNav} />
               </div>
             </div>
@@ -77,7 +77,7 @@ const Navbar = () => {
               <ul className="uppercase">
                 <Link href="/#home">
                   <li
-                    className="py-4 text-sm hover:text-[#DB5375]"
+                    className="py-4 text-sm hover:text-[#EA9EB1]"
                     onClick={handleNav}
                   >
                     Home
@@ -85,7 +85,7 @@ const Navbar = () => {
                 </Link>
                 <Link href="/#about">
                   <li
-                    className="py-4 text-sm hover:text-[#DB5375]"
+                    className="py-4 text-sm hover:text-[#EA9EB1]"
                     onClick={handleNav}
                   >
                     About
@@ -93,7 +93,7 @@ const Navbar = () => {
                 </Link>
                 <Link href="/#skills">
                   <li
-                    className="py-4 text-sm hover:text-[#DB5375]"
+                    className="py-4 text-sm hover:text-[#EA9EB1]"
                     onClick={handleNav}
                   >
                     Skills
@@ -101,7 +101,7 @@ const Navbar = () => {
                 </Link>
                 <Link href="/#projects">
                   <li
-                    className="py-4 text-sm hover:text-[#DB5375]"
+                    className="py-4 text-sm hover:text-[#EA9EB1]"
                     onClick={handleNav}
                   >
                     Projects
@@ -109,7 +109,7 @@ const Navbar = () => {
                 </Link>
                 <Link href="/#contact">
                   <li
-                    className="py-4 text-sm hover:text-[#DB5375]"
+                    className="py-4 text-sm hover:text-[#EA9EB1]"
                     onClick={handleNav}
                   >
                     Contact
@@ -125,7 +125,7 @@ const Navbar = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <div className="rounded-full border-[#DB5375] border-[.1rem] p-3 cursor-pointer hover:scale-105 easein duration hover:border-[pink] hover:bg-gradient-to-r from-[#DB5375] to-pink-500 hover:text-[black]">
+                  <div className="rounded-full border-[#EA9EB1] border-[.1rem] p-3 cursor-pointer hover:scale-105 easein duration hover:border-[pink] hover:bg-gradient-to-r from-[#DB5375] to-pink-500 hover:text-[black]">
                     <FaLinkedinIn />
                   </div>
                 </a>
@@ -134,14 +134,14 @@ const Navbar = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <div className="rounded-full border-[#DB5375] border-[.1rem] p-3 cursor-pointer hover:scale-105 easein duration hover:border-[pink] hover:bg-gradient-to-r from-[#DB5375] to-pink-500 hover:text-[black]">
+                  <div className="rounded-full border-[#EA9EB1] border-[.1rem] p-3 cursor-pointer hover:scale-105 easein duration hover:border-[pink] hover:bg-gradient-to-r from-[#DB5375] to-pink-500 hover:text-[black]">
                     <FaGithub />
                   </div>
                 </a>
-                <div className="rounded-full border-[#DB5375] border-[.1rem] p-3 cursor-pointer hover:scale-105 easein duration hover:border-[pink] hover:bg-gradient-to-r from-[#DB5375] to-pink-500 hover:text-[black]">
+                <div className="rounded-full border-[#EA9EB1] border-[.1rem] p-3 cursor-pointer hover:scale-105 easein duration hover:border-[pink] hover:bg-gradient-to-r from-[#DB5375] to-pink-500 hover:text-[black]">
                   <AiOutlineMail />
                 </div>
-                <div className="rounded-full border-[#DB5375] border-[.1rem] p-3 cursor-pointer hover:scale-105 easein duration hover:border-[pink] hover:bg-gradient-to-r from-[#DB5375] to-pink-500 hover:text-[black]">
+                <div className="rounded-full border-[#EA9EB1] border-[.1rem] p-3 cursor-pointer hover:scale-105 easein duration hover:border-[pink] hover:bg-gradient-to-r from-[#DB5375] to-pink-500 hover:text-[black]">
                   <BsFillPersonLinesFill />
                 </div>
               </div>

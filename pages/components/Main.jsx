@@ -22,7 +22,7 @@ export default function Main() {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="rounded-full border-[#DB5375] border-[.1rem] shadow-lg shadow-black-400 p-6 cursor-pointer hover:scale-110 easein duration-300 hover:border-[pink] hover:bg-gradient-to-r from-[#DB5375] to-pink-500 hover:text-[black]">
+              <div className="rounded-full border-[#EA9EB1] border-[.1rem] shadow-lg shadow-black-400 p-6 cursor-pointer hover:scale-110 easein duration-300 hover:border-[pink] hover:bg-gradient-to-r from-[#DB5375] to-pink-500 hover:text-[black]">
                 <FaLinkedinIn />
               </div>
             </a>
@@ -31,14 +31,14 @@ export default function Main() {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="rounded-full shadow-lg  border-[#DB5375] border-[.1rem] p-6 cursor-pointer hover:scale-110 easein duration-300 hover:border-[pink] hover:bg-gradient-to-r from-[#DB5375] to-pink-500 hover:text-[black]">
+              <div className="rounded-full shadow-lg  border-[#EA9EB1] border-[.1rem] p-6 cursor-pointer hover:scale-110 easein duration-300 hover:border-[pink] hover:bg-gradient-to-r from-[#DB5375] to-pink-500 hover:text-[black]">
                 <FaGithub />
               </div>
             </a>
-            <div className="rounded-full shadow-lg border-[#DB5375] border-[.1rem] p-6 cursor-pointer hover:scale-110 easein duration-300 hover:border-[pink] hover:bg-gradient-to-r from-[#DB5375] to-pink-500 hover:text-[black]">
+            <div className="rounded-full shadow-lg border-[#EA9EB1] border-[.1rem] p-6 cursor-pointer hover:scale-110 easein duration-300 hover:border-[pink] hover:bg-gradient-to-r from-[#DB5375] to-pink-500 hover:text-[black]">
               <AiOutlineMail />
             </div>
-            <div className="rounded-full shadow-lg border-[#DB5375] border-[.1rem] p-6 cursor-pointer hover:scale-110 easein duration-300 hover:border-[pink] hover:bg-gradient-to-r from-[#DB5375] to-pink-500 hover:text-[black]">
+            <div className="rounded-full shadow-lg border-[#EA9EB1] border-[.1rem] p-6 cursor-pointer hover:scale-110 easein duration-300 hover:border-[pink] hover:bg-gradient-to-r from-[#DB5375] to-pink-500 hover:text-[black]">
               <BsFillPersonLinesFill />
             </div>
           </div>
