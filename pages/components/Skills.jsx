@@ -21,7 +21,7 @@ export default function Skills() {
         <p className="text-xl tracking-widest uppercase text-[white] ">
           Skills
         </p>
-        <h2 className="py-4">Tech I've Worked With</h2>
+        <h2 className="py-4">Tech I&apos;ve Worked With</h2>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="p-6 border-[0.2rem] border-[#EA9EB1] rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
