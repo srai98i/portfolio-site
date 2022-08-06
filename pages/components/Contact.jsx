@@ -23,7 +23,7 @@ const Contact = () => {
   };
 
   return (
-    <div id="contact" className="w-full bg-black lg:h-screen">
+    <div id="contact" className="w-full bg-black  lg:h-screen">
       <div className="max-w-[1240px] bg-black m-auto px-2 py-16 w-full ">
         <p className="text-xl  tracking-widest uppercase text-[white] mt-9">
           Contact
@@ -31,7 +31,7 @@ const Contact = () => {
         <h2 className="py-4 ">Get In Touch</h2>
         <div className="grid lg:grid-cols-5 gap-8">
           {/* left */}
-          <div className="col-span-3 lg:col-span-2 w-full h-full shadow-md shadow-[#EA9EB1] border-[#EA9EB1] border-[.1rem] rounded-xl p-4">
+          <div className="col-span-3 lg:col-span-2 w-full h-full  border-[#EA9EB1] border-[.13rem] rounded-xl p-4">
             <div className="lg:p-4 h-full ">
               {/* <div>
                 <Image
@@ -56,7 +56,7 @@ const Contact = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <div className="rounded-full  border-[#EA9EB1] border-[.1rem] p-6 cursor-pointer hover:scale-110 ease-in duration-300  hover:border-[pink] hover:bg-gradient-to-r from-[#DB5375] to-pink-500 hover:text-[black]">
+                    <div className="rounded-full  border-[#EA9EB1] border-[.13rem] p-6 cursor-pointer hover:scale-110 ease-in duration-300  hover:border-[pink] hover:bg-gradient-to-r from-[#DB5375] to-pink-500 hover:text-[black]">
                       <FaLinkedinIn />
                     </div>
                   </a>
@@ -65,17 +65,17 @@ const Contact = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <div className="rounded-full border-[#EA9EB1] border-[.1rem] p-6 cursor-pointer hover:scale-110 ease-in duration-300  hover:border-[pink] hover:bg-gradient-to-r from-[#DB5375] to-pink-500 hover:text-[black]">
+                    <div className="rounded-full border-[#EA9EB1] border-[.13rem] p-6 cursor-pointer hover:scale-110 ease-in duration-300  hover:border-[pink] hover:bg-gradient-to-r from-[#DB5375] to-pink-500 hover:text-[black]">
                       <FaGithub />
                     </div>
                   </a>
 
-                  <div className="rounded-full border-[#EA9EB1] border-[.1rem] p-6 cursor-pointer hover:scale-110 ease-in duration-300  hover:border-[pink] hover:bg-gradient-to-r from-[#DB5375] to-pink-500 hover:text-[black]">
+                  <div className="rounded-full border-[#EA9EB1] border-[.13rem] p-6 cursor-pointer hover:scale-110 ease-in duration-300  hover:border-[pink] hover:bg-gradient-to-r from-[#DB5375] to-pink-500 hover:text-[black]">
                     <AiOutlineMail />
                   </div>
                   <Link href="/resume">
                     <a>
-                      <div className="rounded-full border-[#EA9EB1] border-[.1rem] p-6 cursor-pointer hover:scale-110 ease-in duration-300  hover:border-[pink] hover:bg-gradient-to-r from-[#DB5375] to-pink-500 hover:text-[black]">
+                      <div className="rounded-full border-[#EA9EB1] border-[.13rem] p-6 cursor-pointer hover:scale-110 ease-in duration-300  hover:border-[pink] hover:bg-gradient-to-r from-[#DB5375] to-pink-500 hover:text-[black]">
                         <BsFillPersonLinesFill />
                       </div>
                     </a>
@@ -86,7 +86,7 @@ const Contact = () => {
           </div>
 
           {/* right */}
-          <div className="col-span-3 w-full h-auto shadow-md  border-[#EA9EB1] border-[.1rem] shadow-[#EA9EB1] rounded-xl lg:p-4">
+          <div className="col-span-3 w-full h-auto   border-[#EA9EB1] border-[.13rem] shadow-[#EA9EB1] rounded-xl lg:p-4">
             <div className="p-4">
               <form
                 onSubmit={handleSubmit}
@@ -97,7 +97,7 @@ const Contact = () => {
                   <div className="flex flex-col">
                     <label className="uppercase text-sm py-2">Name</label>
                     <input
-                      className="border-2 rounded-lg p-3 flex border-pink-300"
+                      className="border-2 rounded-lg p-3 flex border-[#EA9EB1] bg-black"
                       type="text"
                       name="name"
                       value={name}
@@ -105,11 +105,11 @@ const Contact = () => {
                     />
                   </div>
                   <div className="flex flex-col">
-                    <label className="uppercase text-sm py-2">
+                    <label className="uppercase text-sm py-2 ">
                       Phone Number
                     </label>
                     <input
-                      className="border-2 rounded-lg p-3 flex border-pink-300"
+                      className="border-2 rounded-lg p-3 flex bg-black border-[#EA9EB1]"
                       type="text"
                       name="phone"
                       value={phone}
@@ -120,7 +120,7 @@ const Contact = () => {
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-sm py-2">Email</label>
                   <input
-                    className="border-2 rounded-lg p-3 flex border-pink-300"
+                    className="border-2 rounded-lg p-3 flex bg-black border-[#EA9EB1]"
                     type="email"
                     name="email"
                     value={email}
@@ -130,7 +130,7 @@ const Contact = () => {
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-sm py-2">Subject</label>
                   <input
-                    className="border-2 rounded-lg p-3 flex border-pink-300"
+                    className="border-2 rounded-lg p-3 flex bg-black border-[#EA9EB1]"
                     type="text"
                     name="subject"
                     value={subject}
@@ -140,14 +140,14 @@ const Contact = () => {
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-sm py-2">Message</label>
                   <textarea
-                    className="border-2 rounded-lg p-3 border-pink-300"
+                    className="border-2 rounded-lg p-3 bg-black border-[#EA9EB1]"
                     rows="10"
                     name="message"
                     value={message}
                     onChange={(e) => setMessage(e.target.value)}
                   ></textarea>
                 </div>
-                <button className="w-full p-4 mt-4 border-[#EA9EB1] border-[.1rem]">
+                <button className="w-full p-4 mt-4 border-[#EA9EB1] border-[.13rem]">
                   Send Message
                 </button>
               </form>
@@ -157,7 +157,7 @@ const Contact = () => {
         <div className="flex justify-center py-12">
           <Link href="/">
             <a>
-              <div className="rounded-full  border-[#EA9EB1] border-[.1rem] p-4 cursor-pointer hover:scale-110 ease-in duration-300  hover:border-[pink] hover:bg-gradient-to-r from-[#DB5375] to-pink-500 hover:text-[black]">
+              <div className="rounded-full  border-[#EA9EB1] border-[.13rem] p-4 cursor-pointer hover:scale-110 ease-in duration-300  hover:border-[pink] hover:bg-gradient-to-r from-[#DB5375] to-pink-500 hover:text-[black]">
                 <HiOutlineChevronDoubleUp className="text-[#EA9EB1" size={30} />
               </div>
             </a>

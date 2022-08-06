@@ -7,7 +7,7 @@ import { AiOutlineMail } from "react-icons/ai";
 //  "pink-blue": "linear-gradient(to right, #DB5375 20% , #2F97C1 80%);",
 export default function Main() {
   return (
-    <div id="home" className="w-full h-screen text-center bg-[black]">
+    <div id="home" className="w-full h-screen text-center  bg-[black]">
       <div className="max-w-[1240px] w-full h-full mx-auto items-center p-2 flex justify-center">
         <div>
           <p className="uppercase text-sm tracking-widest text-[#eae9d3]"></p>
@@ -22,7 +22,7 @@ export default function Main() {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="rounded-full border-[#EA9EB1] border-[.1rem] shadow-lg shadow-black-400 p-6 cursor-pointer hover:scale-110 easein duration-300 hover:border-[pink] hover:bg-gradient-to-r from-[#DB5375] to-pink-500 hover:text-[black]">
+              <div className="rounded-full border-[#EA9EB1] border-[.13rem] shadow-lg shadow-black-400 p-6 cursor-pointer hover:scale-110 easein duration-300 hover:border-[pink] hover:bg-gradient-to-r from-[#DB5375] to-pink-500 hover:text-[black]">
                 <FaLinkedinIn />
               </div>
             </a>
@@ -31,16 +31,16 @@ export default function Main() {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="rounded-full shadow-lg  border-[#EA9EB1] border-[.1rem] p-6 cursor-pointer hover:scale-110 easein duration-300 hover:border-[pink] hover:bg-gradient-to-r from-[#DB5375] to-pink-500 hover:text-[black]">
+              <div className="rounded-full shadow-lg  border-[#EA9EB1] border-[.13rem] p-6 cursor-pointer hover:scale-110 easein duration-300 hover:border-[pink] hover:bg-gradient-to-r from-[#DB5375] to-pink-500 hover:text-[black]">
                 <FaGithub />
               </div>
             </a>
-            <div className="rounded-full shadow-lg border-[#EA9EB1] border-[.1rem] p-6 cursor-pointer hover:scale-110 easein duration-300 hover:border-[pink] hover:bg-gradient-to-r from-[#DB5375] to-pink-500 hover:text-[black]">
+            <div className="rounded-full shadow-lg border-[#EA9EB1] border-[.13rem] p-6 cursor-pointer hover:scale-110 easein duration-300 hover:border-[pink] hover:bg-gradient-to-r from-[#DB5375] to-pink-500 hover:text-[black]">
               <a href="/#contact" target="_blank" rel="noreferrer">
                 <AiOutlineMail />
               </a>
             </div>
-            <div className="rounded-full shadow-lg border-[#EA9EB1] border-[.1rem] p-6 cursor-pointer hover:scale-110 easein duration-300 hover:border-[pink] hover:bg-gradient-to-r from-[#DB5375] to-pink-500 hover:text-[black]">
+            <div className="rounded-full shadow-lg border-[#EA9EB1] border-[.13rem] p-6 cursor-pointer hover:scale-110 easein duration-300 hover:border-[pink] hover:bg-gradient-to-r from-[#DB5375] to-pink-500 hover:text-[black]">
               <BsFillPersonLinesFill />
             </div>
           </div>

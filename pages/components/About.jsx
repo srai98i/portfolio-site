@@ -1,13 +1,15 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
+import sim from "../../public/sim.svg";
 
 export default function About() {
   return (
     <div
-      id="about"
-      className="w-full md:h-screen p-2 flex items-center bg-pink-blue py-16"
+      className="w-full md:h-screen p-2 flex items-center  py-2
+      "
     >
-      <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8 mt-9">
+      <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2 ">
           <p className="uppercase text-xl tracking-widest text-[white]">
             About
@@ -45,8 +47,10 @@ export default function About() {
             </Link>{" "}
           </p>
         </div>
-        <div className="w-full h-auto m-auto shadow-lg shadow-[#EA9EB1] rounded-xl flex items-center justify-center p-4 hover:scale-105 easein duration-300 mt-10">
-          put img here
+        <div className="w-full h-auto m-auto border-[0.2rem] border-[#EA9EB1] rounded-xl flex items-center justify-center p-4 hover:scale-105 easein duration-300 mt-10">
+          <div className="m-auto">
+            <Image src={sim} width="320px" height="320px" alt="/" />
+          </div>
         </div>
       </div>
     </div>
