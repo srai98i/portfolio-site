@@ -2,7 +2,12 @@ import React from "react";
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
+import {
+  AiOutlineClose,
+  AiOutlineMenu,
+  AiOutlineMail,
+  AiFillHome,
+} from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
@@ -15,8 +20,8 @@ const Navbar = () => {
 
   return (
     <div className="fixed w-full h-20 shadow-md shadow-[#EA9EB1] border-[#EA9EB1] border-b-[0.05rem] z-[100]  bg-[black]">
-      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        Hello
+      <div className="flex justify-between items-center w-full h-full px-4 2xl:px-16 text-black ">
+        .
         <div>
           <ul className="hidden md:flex">
             <Link href="/#home">

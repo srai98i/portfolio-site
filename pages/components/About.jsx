@@ -16,10 +16,22 @@ export default function About() {
           </p>
           <h2 className="py-4 ">Who I Am</h2>
           <p className="py-2 flex justify-items-center text-[white]">
-            I am a Biomedical Sciences graduate currently studying at the School
-            of Code 💻{" "}
+            I am a Biomedical Sciences graduate who has finished studying at the
+            School of Code 💻{" "}
           </p>{" "}
           <p className="py-2 flex justify-items-center text-[white]">
+            I have always found tech exciting but I never saw myself having the
+            talent to build the seemingly magical software I enjoyed using.
+            After playing around with basic HTML and CSS one day, I was amazed
+            with how I was able to make my computer say "Hello World!". I had to
+            research more into the tech world and found that in this
+            ever-evolving industry, the learning opportunities and challenges
+            are endless. A career as a software developer seemed incredibly
+            exciting, so I gathered the confidence to join the School of Code.
+            16 weeks later, I'm now a Junior Software Developer!
+          </p>
+          <p className="py-2 flex justify-items-center text-[white]">
+            {" "}
             I use my analytical, problem solving and teamworking skills to build
             software with other equally passionate developers. I am interested
             in both front-end and back-end development and am always looking to
