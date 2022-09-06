@@ -47,5 +47,8 @@ https://simranrai.vercel.app/
 
  - I have followed agile principles during this project, regularly reworking wireframes and initial plans when problems arise.
 
+## Upcoming Plans
 
+- Add project tiles to my site
+- Experiment further with styling and functionality 
  
