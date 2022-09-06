@@ -31,6 +31,15 @@ const Contact = () => {
         <h2 className="py-4 ">Get In Touch</h2>
         <p className="text-m    text-[white] mt-9">Send me an email at: </p>
         <p classname="text-[#EA9EB1]">simranraidev@outlook.com</p>
+        <div className="flex justify-center py-12">
+          <Link href="/">
+            <a>
+              <div className="rounded-full  border-[#EA9EB1] border-[.13rem] p-4 cursor-pointer hover:scale-110 ease-in duration-300  hover:border-[pink] hover:bg-gradient-to-r from-[#DB5375] to-pink-500 hover:text-[black]">
+                <HiOutlineChevronDoubleUp className="text-[#EA9EB1" size={30} />
+              </div>
+            </a>
+          </Link>
+        </div>
       </div>
     </div>
   );
