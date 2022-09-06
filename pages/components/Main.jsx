@@ -2,6 +2,7 @@ import React from "react";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
+import Link from "next/link";
 
 //#1f1f43
 //  "pink-blue": "linear-gradient(to right, #DB5375 20% , #2F97C1 80%);",
@@ -40,11 +41,13 @@ export default function Main() {
                 <AiOutlineMail />
               </a>
             </div>
-            <a href="/simran_rai_cv.pdf" target="_blank" rel="noreferrer">
-              <div className="rounded-full shadow-lg border-[#EA9EB1] border-[.13rem] p-6 cursor-pointer hover:scale-110 easein duration-300 hover:border-[pink] hover:bg-gradient-to-r from-[#DB5375] to-pink-500 hover:text-[black]">
-                <BsFillPersonLinesFill />
-              </div>
-            </a>
+            <Link href="/simran_rai_cv.pdf" passHref>
+              <a target="_blank" rel="noopener noreferrer">
+                <div className="rounded-full shadow-lg border-[#EA9EB1] border-[.13rem] p-6 cursor-pointer hover:scale-110 easein duration-300 hover:border-[pink] hover:bg-gradient-to-r from-[#DB5375] to-pink-500 hover:text-[black]">
+                  <BsFillPersonLinesFill />
+                </div>
+              </a>
+            </Link>
           </div>
         </div>
       </div>
