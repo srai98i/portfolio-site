@@ -14,7 +14,20 @@ const Projects = () => {
         <p className="text-xl tracking-widest uppercase text-[white] mt-9">
           Projects
         </p>
+
         <h2 className="py-4">What I&apos;ve Built</h2>
+        <p className="py-2  text-[#EA9EB1]">
+          See my projects on my Github{" "}
+          <Link href="https://github.com/srai98i">
+            <a
+              target="_blank"
+              className="py-2 text-[white] underline cursor-pointer"
+            >
+              {" "}
+              here
+            </a>
+          </Link>{" "}
+        </p>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
             title="Property Finder"

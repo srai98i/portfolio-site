@@ -23,12 +23,12 @@ export default function About() {
             I have always found tech exciting but I never saw myself having the
             talent to build the seemingly magical software I enjoyed using.
             After playing around with basic HTML and CSS one day, I was amazed
-            with how I was able to make my computer say "Hello World!". I had to
-            research more into the tech world and found that in this
-            ever-evolving industry, the learning opportunities and challenges
-            are endless. A career as a software developer seemed incredibly
-            exciting, so I gathered the confidence to join the School of Code.
-            16 weeks later, I'm now a Junior Software Developer!
+            with how I was able to make my computer say &apos;Hello
+            World!&apos;. I had to research more into the tech world and found
+            that in this ever-evolving industry, the learning opportunities and
+            challenges are endless. A career as a software developer seemed
+            incredibly exciting, so I gathered the confidence to join the School
+            of Code. 16 weeks later, I&apos;m now a Junior Software Developer!
           </p>
           <p className="py-2 flex justify-items-center text-[white]">
             {" "}
