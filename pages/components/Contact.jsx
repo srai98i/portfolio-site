@@ -30,7 +30,7 @@ const Contact = () => {
         </p>
         <h2 className="py-4 ">Get In Touch</h2>
         <p className="text-m    text-[white] mt-9">Send me an email at: </p>
-        <p classname="text-[#EA9EB1]">simranraidev@outlook.com</p>
+        <p className="text-[#EA9EB1]">simranraidev@outlook.com</p>
         <div className="flex justify-center py-12">
           <Link href="/">
             <a>

@@ -146,10 +146,16 @@ const Navbar = () => {
                   </div>
                 </a>
                 <div className="rounded-full border-[#EA9EB1] border-[.1rem] p-3 cursor-pointer hover:scale-105 easein duration hover:border-[pink] hover:bg-gradient-to-r from-[#DB5375] to-pink-500 hover:text-[black]">
-                  <AiOutlineMail />
+                  <Link href="/#contact" rel="noreferrer">
+                    <AiOutlineMail />
+                  </Link>
                 </div>
                 <div className="rounded-full border-[#EA9EB1] border-[.1rem] p-3 cursor-pointer hover:scale-105 easein duration hover:border-[pink] hover:bg-gradient-to-r from-[#DB5375] to-pink-500 hover:text-[black]">
-                  <BsFillPersonLinesFill />
+                  <Link href="/simran_rai_cv.pdf" passHref>
+                    <a target="_blank" rel="noopener noreferrer">
+                      <BsFillPersonLinesFill />
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
