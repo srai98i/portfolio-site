@@ -36,13 +36,15 @@ export default function Main() {
               </div>
             </a>
             <div className="rounded-full shadow-lg border-[#EA9EB1] border-[.13rem] p-6 cursor-pointer hover:scale-110 easein duration-300 hover:border-[pink] hover:bg-gradient-to-r from-[#DB5375] to-pink-500 hover:text-[black]">
-              <a href="/#contact" target="_blank" rel="noreferrer">
+              <a href="/#contact" rel="noreferrer">
                 <AiOutlineMail />
               </a>
             </div>
-            <div className="rounded-full shadow-lg border-[#EA9EB1] border-[.13rem] p-6 cursor-pointer hover:scale-110 easein duration-300 hover:border-[pink] hover:bg-gradient-to-r from-[#DB5375] to-pink-500 hover:text-[black]">
-              <BsFillPersonLinesFill />
-            </div>
+            <a href="/simran_rai_cv.pdf" target="_blank" rel="noreferrer">
+              <div className="rounded-full shadow-lg border-[#EA9EB1] border-[.13rem] p-6 cursor-pointer hover:scale-110 easein duration-300 hover:border-[pink] hover:bg-gradient-to-r from-[#DB5375] to-pink-500 hover:text-[black]">
+                <BsFillPersonLinesFill />
+              </div>
+            </a>
           </div>
         </div>
       </div>
