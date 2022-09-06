@@ -151,7 +151,7 @@ const Navbar = () => {
                   </Link>
                 </div>
                 <div className="rounded-full border-[#EA9EB1] border-[.1rem] p-3 cursor-pointer hover:scale-105 easein duration hover:border-[pink] hover:bg-gradient-to-r from-[#DB5375] to-pink-500 hover:text-[black]">
-                  <Link href="/cv-simran-rai.pdf" passHref>
+                  <Link href="/simran-rai-cv.pdf" passHref>
                     <a target="_blank" rel="noopener noreferrer">
                       <BsFillPersonLinesFill />
                     </a>

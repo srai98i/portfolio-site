@@ -41,7 +41,7 @@ export default function Main() {
                 <AiOutlineMail />
               </Link>
             </div>
-            <Link href="/cv-simran-rai.pdf" passHref>
+            <Link href="/simran-rai-cv.pdf" passHref>
               <a target="_blank" rel="noopener noreferrer">
                 <div className="rounded-full shadow-lg border-[#EA9EB1] border-[.13rem] p-6 cursor-pointer hover:scale-110 easein duration-300 hover:border-[pink] hover:bg-gradient-to-r from-[#DB5375] to-pink-500 hover:text-[black]">
                   <BsFillPersonLinesFill />
