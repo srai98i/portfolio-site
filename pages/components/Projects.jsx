@@ -1,11 +1,10 @@
-import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-// import propertyImg from '../public/assets/projects/property.jpg';
-// import cryptoImg from '../public/assets/projects/crypto.jpg'
-// import netflixImg from '../public/assets/projects/netflix.jpg'
-// import twitchImg from '../public/assets/projects/twitch.jpg'
+
 import ProjectItem from "./ProjectItem";
+import Athena from "../../public/Projects/Athena.jpg";
+import Hero from "../../public/Projects/Hero_quiz.jpg";
+import CleanUp from "../../public/Projects/Project_Clean-Up.jpg";
 
 const Projects = () => {
   return (
@@ -16,8 +15,35 @@ const Projects = () => {
         </p>
 
         <h2 className="py-4">What I&apos;ve Built</h2>
+
+        <div className="grid md:grid-cols-2 gap-8">
+          <ProjectItem
+            title="Project Clean-Up"
+            backgroundImg={CleanUp.src}
+            projectUrl="https://github.com/srai98i/environment_variables_frontend"
+            tech="Frontend: Next JS, CSS Tailwind, Ant Design, Leaflet API | Backend: Express, Heroku"
+            alt="Project Clean-Up"
+            deployUrl="https://projectcleanup.netlify.app/"
+          />
+          <ProjectItem
+            title="Athena Resource Tool"
+            backgroundImg={Athena.src}
+            projectUrl="https://github.com/srai98i/w9_frontend-project-shabana-jenan-dan-kendall-simran/tree/main/bootcamp-buddy"
+            tech="Frontend:React JS | Backend: Express, Heroku"
+            alt="Athena Resource Tool"
+            deployUrl="/"
+          />
+          <ProjectItem
+            title="Personality Quiz"
+            backgroundImg={Hero.src}
+            projectUrl="https://github.com/srai98i/personality-quiz"
+            tech="Next JS, CSS Tailwind"
+            alt="Personality Quiz"
+            deployUrl="https://personality-quiz.vercel.app/"
+          />
+        </div>
         <p className="py-2  text-[#EA9EB1]">
-          See my projects on my Github{" "}
+          See more projects on my Github{" "}
           <Link href="https://github.com/srai98i">
             <a
               target="_blank"
@@ -28,32 +54,6 @@ const Projects = () => {
             </a>
           </Link>{" "}
         </p>
-        <div className="grid md:grid-cols-2 gap-8">
-          <ProjectItem
-            title="Property Finder"
-            // backgroundImg={propertyImg}
-            // projectUrl="/property"
-            tech="React JS"
-          />
-          <ProjectItem
-            title="Crypto App"
-            // backgroundImg={cryptoImg}
-            // projectUrl="/crypto"
-            tech="React JS"
-          />
-          <ProjectItem
-            title="Netflix App"
-            // backgroundImg={netflixImg}
-            // projectUrl="/netflix"
-            tech="React JS"
-          />
-          <ProjectItem
-            title="Twitch UI"
-            // backgroundImg={twitchImg}
-            // projectUrl="/twitch"
-            tech="Next JS"
-          />
-        </div>
       </div>
     </div>
   );

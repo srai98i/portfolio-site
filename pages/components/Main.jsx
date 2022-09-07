@@ -4,8 +4,7 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 import Link from "next/link";
 
-//#1f1f43
-//  "pink-blue": "linear-gradient(to right, #DB5375 20% , #2F97C1 80%);",
+
 export default function Main() {
   return (
     <div id="home" className="w-full h-screen text-center  bg-[black]">
