@@ -25,7 +25,9 @@ const ProjectItem = ({
         <h3 className="text-xl text-white tracking-wider text-center">
           {title}
         </h3>
-        <p className="pb-4 pt-2 text-white text-center">{tech}</p>
+        <p className="pb-2 scroll-pt-14 text-[10px] text-white text-center">
+          {tech}
+        </p>
         <a href={projectUrl} target="_blank" rel="noreferrer">
           <p className="text-center py-2 rounded-lg bg-white text-gray-700 font-bold text-md cursor-pointer">
             More Info
