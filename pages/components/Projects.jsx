@@ -5,6 +5,7 @@ import ProjectItem from "./ProjectItem";
 import Athena from "../../public/Projects/Athena.jpg";
 import Hero from "../../public/Projects/Hero_quiz.jpg";
 import CleanUp from "../../public/Projects/Project_Clean-Up.jpg";
+import Todo from "../../public/Projects/todo.jpg";
 
 const Projects = () => {
   return (
@@ -40,6 +41,14 @@ const Projects = () => {
             tech="Next JS, CSS Tailwind"
             alt="Personality Quiz"
             deployUrl="https://personality-quiz.vercel.app/"
+          />
+          <ProjectItem
+            title="React To-Do App"
+            backgroundImg={Todo.src}
+            projectUrl="https://github.com/srai98i/to-do"
+            tech="React JS, CSS"
+            alt="To-Do React App"
+            deployUrl="https://reactodo-sim.netlify.app/"
           />
         </div>
         <p className="py-2  text-[#EA9EB1]">
