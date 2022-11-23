@@ -5,7 +5,7 @@ import ProjectItem from "./ProjectItem";
 import Athena from "../../public/Projects/Athena.jpg";
 import Hero from "../../public/Projects/Hero_quiz.jpg";
 import CleanUp from "../../public/Projects/Project_Clean-Up.jpg";
-import Todo from "../../public/Projects/todo.jpg";
+import Todo from "../../public/Projects/react-to-do.jpg";
 
 const Projects = () => {
   return (
