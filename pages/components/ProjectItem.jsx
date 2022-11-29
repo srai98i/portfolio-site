@@ -34,11 +34,13 @@ const ProjectItem = ({
           </p>
         </a>{" "}
         <br />
-        <a href={deployUrl} target="_blank" rel="noreferrer">
-          <p className="text-center py-1 rounded-lg bg-white text-gray-700 font-bold text-sm cursor-pointer">
-            See Deployed Version
-          </p>
-        </a>
+        {deployUrl && (
+          <a href={deployUrl} target="_blank" rel="noreferrer">
+            <p className="text-center py-1 rounded-lg bg-white text-gray-700 font-bold text-sm cursor-pointer">
+              See Deployed Version
+            </p>
+          </a>
+        )}
       </div>
     </div>
   );

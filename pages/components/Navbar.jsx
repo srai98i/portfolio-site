@@ -19,7 +19,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed w-full h-20 shadow-md shadow-[#EA9EB1] border-[#EA9EB1] border-b-[0.05rem] z-[100]  bg-[black] text-[#EA9EB1]">
+    <div className="fixed w-full h-20 shadow-sm shadow-[#EA9EB1] border-[#EA9EB1] border-b-[0.05rem] z-[100]  bg-[black] text-[#EA9EB1]">
       <div className="flex justify-between items-center w-full h-full px-4 2xl:px-16">
         💻
         <div>
@@ -42,6 +42,11 @@ const Navbar = () => {
             <Link href="/#projects">
               <li className="ml-10 font-semibold text-sm uppercase hover:border-b">
                 Projects
+              </li>
+            </Link>
+            <Link href="/#inprogress">
+              <li className="ml-10 font-semibold text-sm uppercase hover:border-b">
+                In Progress
               </li>
             </Link>
             <Link href="/#contact">
@@ -110,6 +115,14 @@ const Navbar = () => {
                     onClick={handleNav}
                   >
                     Projects
+                  </li>
+                </Link>
+                <Link href="/#inprogress">
+                  <li
+                    className="py-4 text-sm hover:text-[#EA9EB1]"
+                    onClick={handleNav}
+                  >
+                    In Progress
                   </li>
                 </Link>
                 <Link href="/#contact">

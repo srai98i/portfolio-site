@@ -51,15 +51,15 @@ const Projects = () => {
             deployUrl="https://reactodo-sim.netlify.app/"
           />
         </div>
-        <p className="py-2  text-[#EA9EB1]">
-          See more projects on my Github{" "}
+        <p className="py-2 text-lg mt-10 text-[#EA9EB1]">
+          Check out my{" "}
           <Link href="https://github.com/srai98i">
             <a
               target="_blank"
-              className="py-2 text-[white] underline cursor-pointer"
+              className="py-2 text-[white] underline cursor-pointer font-bold"
             >
               {" "}
-              here
+              Github
             </a>
           </Link>{" "}
         </p>

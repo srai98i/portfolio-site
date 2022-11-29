@@ -7,6 +7,7 @@ import Main from "./components/Main";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import InProgress from "./components/InProgress";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
         <div id="skills" className="py-10  mt-10" />
         <Skills />
         <Projects />
+        <InProgress />
         <Contact />
       </div>
     </div>
